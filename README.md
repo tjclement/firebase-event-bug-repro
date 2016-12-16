@@ -4,7 +4,8 @@ A repro for child_added firing only after all data has been downloaded.
 ## Install & run
 ```bash
 npm i
-npm run start```
+npm run start
+```
 
 ## Interpretation
 When subscribing to the large (1M entries at time of writing) data branch,
