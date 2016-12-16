@@ -1,0 +1,30 @@
+{
+  "name": "firebase-event-bug-repro",
+  "version": "1.0.0",
+  "description": "A repro for child_added firing only after all data has been downloaded",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^3.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test:large": "node largeDatasetTest.js",
+    "test:small": "node smallDatasetTest.js",
+    "start": "npm run test:large && npm run test:small",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tjclement@github.com/tjclement/firebase-event-bug-repro.git"
+  },
+  "keywords": [
+    "firebase",
+    "nodejs"
+  ],
+  "author": "Tom Clement",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjclement/firebase-event-bug-repro/issues"
+  },
+  "homepage": "https://github.com/tjclement/firebase-event-bug-repro#readme"
+}
